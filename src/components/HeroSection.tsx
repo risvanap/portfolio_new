@@ -119,11 +119,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenResume }) => {
                 {/* Profile Photo with Smooth Feathered Blend */}
                 <div className="relative w-full h-full flex items-end justify-center pt-4 overflow-hidden">
                   <img
-                    src="/profile.png"
+                    src="./profile.png"
                     alt="Rishvan A P Portrait"
                     className="w-full h-full object-cover object-top filter contrast-[1.05] brightness-[1.02] group-hover:scale-105 transition-transform duration-700 ease-out"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = "/profile-full.jpg";
+                      (e.target as HTMLImageElement).src = "./profile-full.jpg";
                     }}
                   />
                   {/* Bottom blend shadow */}

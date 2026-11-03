@@ -63,11 +63,11 @@ export const AboutSection: React.FC = () => {
               {/* Headshot image container */}
               <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10 mb-5 bg-[#08090D] shadow-inner">
                 <img
-                  src="/about-profile.png"
+                  src="./about-profile.png"
                   alt="Rishvan A P"
                   className="w-full h-full object-cover object-center group-hover:scale-105 filter contrast-[1.05] brightness-[1.02] transition-transform duration-700 ease-out"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = "/profile.png";
+                    (e.target as HTMLImageElement).src = "./profile.png";
                   }}
                 />
 
